@@ -1,38 +1,33 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
+		"name": "Elves",
+		"leaderName": "Claralanthalasa",
+		"adjective": ["Elvish"],
+		"startBias": ["Forest"],
 		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"personality": "Hiawatha",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+        "startIntroPart1": "Mae g'ovannen, first born Claralanthalasa, leader of the awakened Elves! Your peoples lineage long laid dormant, with mana returning to the world your people have awoken and returned to the ancestral forests. Many of those have been hewn for firewood and the fleets of human nations.",
+        "startIntroPart2": "Great Claralanthalasa, do you hear the complaints of the land? Can you bring back life to the forests? Will you prevail against the destructive humans?",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+        "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
+		"attacked": "You evil creature! The forests will grow strong on your blood and bones!",
+		"defeated": "You have defeated us... but our spirits return to Mother Earth! We shall return!",
+		"introduction": "Greetings, stranger. I am Claralanthalasa, first born of the Elves. Treat Mother Earth with care and we can be friends.",
+		"neutralHello": "Len suilannon.",
+		"hateHello": "What do you want defiler?",
+		"tradeRequest": "Let us trade the riches willingly given by Mother Earth.",
+
+        "outerColor": [192,192,192],
+        "innerColor": [43, 88, 46],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Forest dwellers",
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","[+1 Food] from every [Forest]"],
+		"cities": ["Amazonas","Kora","Papua-Neuguinea","Korup","Bialowieza","Tongass","Daintree","Wolong",
+			"Yasuni","Sian Ka'an","Yellowstone","Kruger","Namdapha","Monteverde","Redwood","Hoh","Sundarbans",
+			"Kakadu","Smoky Mountains","Rwenzori",Gunung Leuser","Valdivian","Sequoia","Plitvicer Lakes","Hainan",
+			"Madidi","Zamianka-Kerkini","Montecristo","Virunga","Banff","Andasibe","Yosemite","Muir","North Cascades","Borneo","Kariba","Tien Son-Nui Chua","Krka","San Juan Mountains","Sumatra","Kahuzi-Biega",Gorki-Terelj","Jozani Chwaka Bay","Bwindi","Black Forest"],
+        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
+    }
 ]
