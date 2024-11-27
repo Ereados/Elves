@@ -18,8 +18,8 @@
 		"hateHello": "What do you want defiler?",
 		"tradeRequest": "Let us trade the riches willingly given by Mother Earth.",
 
-        "outerColor": [192,192,192],
-        "innerColor": [43, 88, 46],
+        "outerColor": [43, 88, 46],
+        "innerColor": [192,192,192],
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Forest dwellers",

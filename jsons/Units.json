@@ -10,7 +10,8 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Elvish Ranger",
-		"promotions": ["Elvish Withdraw"],["Forest Paths"],
+		"promotions": ["Elvish Withdraw","Forest Paths"],
+		"uniques": ["Ranged attacks may be performed over obstacles","Can see over obstacles"],
 		"attackSound": "arrow"
 	},
 	{
@@ -25,7 +26,8 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Elvish Sniper",
-		"promotions": ["Elvish Withdraw"],["Forest Paths"],
+		"promotions": ["Elvish Withdraw","Forest Paths"],
+		"uniques": ["Ranged attacks may be performed over obstacles","Can see over obstacles"],
 		"attackSound": "arrow"
 	},
 	{
@@ -33,14 +35,50 @@
 		"unitType": "Archery",
 		"uniqueTo": "Elves",
 		"replaces": "Crossbowman",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
 		"range": 3,
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Machinery",
-		"promotions": ["Elvish Withdraw"],["Forest Paths"],
+		"uniques": ["Ranged attacks may be performed over obstacles","[+1] Sight","Can see over obstacles"],
+		"promotions": ["Elvish Withdraw","Forest Paths"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Elvish Repeater",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Elves",
+		"replaces": "Gatling Gun",
+		"range": 3,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"promotions": ["Elvish Withdraw","Forest Paths"],
+		"uniques": ["Ranged attacks may be performed over obstacles","[+1] Sight","Can see over obstacles"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Elvish Bolt Gun",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Elves",
+		"replaces": "Machine Gun",
+		"range": 3,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 350,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": ["Ranged attacks may be performed over obstacles","[+1] Sight","Can see over obstacles"],
+		"attackSound": "arrow"
+		// Upgrades to Bazooka in BNW
 	},
 	{
 		"name": "Elvish Warrior",
@@ -52,8 +90,9 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Elvish Swordsman",
-		"uniques" : ["May upgrade to [Elvish Spearman] through ruins-like effects"],["Forest Paths"],
+		"uniques" : ["May upgrade to [Elvish Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
+		"promotions": ["Forest Paths"],
         "civilopediaText": [
 			{"text": "This is your basic, staff-swinging elvish fighter."}
 		]
@@ -84,6 +123,21 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
+		"promotions": ["Forest Paths"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Elvish Spearman",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Elves",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["Forest Paths"],
 		"attackSound": "metalhit"
 	}

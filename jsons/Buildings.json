@@ -1,6 +1,43 @@
 [
 	{
-		"name": "Treehouse",
+		"name": "World Tree",
+        	"replaces": "Palace",
+		"uniqueTo": "Elves",
+		"isNationalWonder": true,
+		"production": 5,
+		"science": 5,
+		"gold": 5,
+		"culture": 5,
+		"faith": 5,
+		"happiness": 5,
+		"cityStrength": 5,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},	
+	{
+		"name": "Wisdom of Leaves",
+        	"replaces": "Shrine",
+		"uniqueTo": "Elves",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] from [Forest] tiles [in this city]"],
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Shaped Tree",
+        	"replaces": "Monument",
+		"uniqueTo": "Elves",
+		"culture": 2,
+		"faith": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Wood Shaper",
 		"replaces": "Workshop",
 		"uniqueTo": "Elves",
 		"cost": 100,
@@ -10,5 +47,91 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Temple of Artemis",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in all cities]",
+            "[+15]% Production when constructing [Ranged Gunpowder] units [in all cities]"],
+		"requiredTech": "Archery",
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{
+		"name": "Leaf Library",
+		"replaces": "Library",
+		"uniqueTo": "Elves",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]","[+1 Culture] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Bramble Walls",
+		"replaces": "Walls",
+		"uniqueTo": "Elves",
+		"cityStrength": 6,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trapping",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Festival of Fruit",
+		"replaces": "Colosseum",
+		"uniqueTo": "Elves",
+		"maintenance": 1,
+		"happiness": 2,
+		"uniques": ["[+1 Happiness, +1 Gold] from [Orchard] tiles [in this city]"]
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Forest Sanctum",
+		"replaces": "Temple",
+		"uniqueTo": "Elves",
+		"maintenance": 0,
+		"faith": 2,
+		"happiness": 1,
+		"culture": 1,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Wood Weaver",
+		"replaces": "Factory",
+		"uniqueTo": "Elves",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Photosynthetic Power Plant",
+		"replaces": "Solar Plant",
+		"uniqueTo": "Elves",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Forest]", "Only available <in cities without a [Nuclear Plant]>"]
+	},
+
+	{
+		"name": "Microplastic Recycling Plant",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Seaport",
+		"uniques": ["[+1 Production] from [Water] tiles [in this city]",
+			"Must be next to [Coast]"],
+		"requiredTech": "Ecology"
 	}
 ]
