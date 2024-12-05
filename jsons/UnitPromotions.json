@@ -6,8 +6,6 @@
 	{
 		"name": "Forest Paths",
 		"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>",
-			"[+25]% Strength <when fighting in [Jungle] tiles>",
-			"Double movement in [Forest]",
-			"Double movement in [Jungle]"]
+			"Double movement in [Forest]"]
 	}			
 ]
