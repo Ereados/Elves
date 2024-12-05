@@ -89,6 +89,18 @@
 		"requiredTech": "Philosophy"
 	},
 	{
+		"name": "Alhambra",
+		"culture": 1,
+		"uniqueTo": "Elves",
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"percentStatBonus": {"culture": 20},
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Barrage I] promotion",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Chivalry",
+		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
+	},
+	{
 		"name": "Wood Weaver",
 		"replaces": "Factory",
 		"uniqueTo": "Elves",
