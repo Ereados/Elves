@@ -36,6 +36,24 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Tamers Den",
+        	"replaces": "Stable",
+		"uniqueTo": "Elves",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Deer","Ivory","Furs"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+			"[+1 Production] from [Deer] tiles [in this city]",
+			"[+1 Production] from [Ivory] tiles [in this city]",
+			"[+1 Production] from [Furs] tiles [in this city]"],
+
+		"requiredTech": "Horseback Riding"
+	},
+
+	{
 		"name": "Wood Shaper",
 		"replaces": "Workshop",
 		"uniqueTo": "Elves",
