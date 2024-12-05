@@ -23,7 +23,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Forest dwellers",
-		"uniques": ["All units move through Forest Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","[+1 Food] from every [Forest]"],
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","[+1 Food] from every [Forest]"],
 		"cities": ["Amazonas","Kora","Papua-Neuguinea","Korup","Bialowieza","Tongass","Daintree","Wolong",
 			"Yasuni","Sian Ka'an","Yellowstone","Kruger","Namdapha","Monteverde","Redwood","Hoh","Sundarbans",
 			"Kakadu","Smoky Mountains","Rwenzori",Gunung Leuser","Valdivian","Sequoia","Plitvicer Lakes","Hainan",
