@@ -1,34 +1,237 @@
 
 game.png
-size: 512, 128
+size: 1024, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Breeders
+BuildingIcons/Bramble Wall
   rotate: false
-  xy: 112, 4
+  xy: 500, 392
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Holodeck
+BuildingIcons/Festival of Fruit
   rotate: false
-  xy: 220, 4
+  xy: 453, 159
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Aliens
+BuildingIcons/Forest Sanctum
+  rotate: false
+  xy: 453, 51
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Leaf Library
+  rotate: false
+  xy: 561, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Microplastic Recycling Plant
+  rotate: false
+  xy: 561, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Photosynthetic Power Plant
+  rotate: false
+  xy: 669, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shaped Tree
+  rotate: false
+  xy: 669, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wood Shaper
+  rotate: false
+  xy: 777, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wood Weaver
+  rotate: false
+  xy: 777, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/World Tree
+  rotate: false
+  xy: 885, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Enrich soil
+  rotate: false
+  xy: 4, 237
+  size: 255, 255
+  orig: 255, 255
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Thaw soil
+  rotate: false
+  xy: 4, 237
+  size: 255, 255
+  orig: 255, 255
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Forest Pasture
   rotate: false
   xy: 4, 4
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Grow Home
+  rotate: false
+  xy: 4, 4
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Mining Tree
+  rotate: false
+  xy: 4, 4
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Stonebreaker Tree
+  rotate: false
+  xy: 4, 4
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Orchard
+  rotate: false
+  xy: 267, 267
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+NationIcons/Elves
+  rotate: false
+  xy: 500, 284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Phasers
+Tilesets/Elves/Shrubbery
   rotate: false
-  xy: 328, 4
+  xy: 932, 314
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvis Dual-Wielder
+  rotate: false
+  xy: 608, 392
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Dual-Wielder
+  rotate: false
+  xy: 608, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Archer
+  rotate: false
+  xy: 608, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Bolt Gun
+  rotate: false
+  xy: 716, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Buggy Bolter
+  rotate: false
+  xy: 716, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Ranger
+  rotate: false
+  xy: 824, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Repeater
+  rotate: false
+  xy: 824, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Sniper
+  rotate: false
+  xy: 237, 129
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Spearman
+  rotate: false
+  xy: 237, 21
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Swordsman
+  rotate: false
+  xy: 345, 159
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elvish Warrior
+  rotate: false
+  xy: 345, 51
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Units/Elvish Buggy Bolter
+  rotate: false
+  xy: 932, 427
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+Units/Elvish Buggy Bolter-1
+  rotate: false
+  xy: 885, 103
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+Units/Elvish Buggy Bolter-2
+  rotate: false
+  xy: 932, 354
+  size: 77, 65
+  orig: 77, 65
   offset: 0, 0
   index: -1

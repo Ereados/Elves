@@ -21,9 +21,8 @@
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] from [Forest] tiles [in this city]"],
 		"requiredTech": "Pottery",
-		"uniques": ["Only available <when religion is enabled>"]
+		"uniques": ["Only available <when religion is enabled>","[+1 Science] from [Forest] tiles [in this city]"]
 	},
 	{
 		"name": "Shaped Tree",
@@ -47,16 +46,6 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
-	},
-	{
-		"name": "Temple of Artemis",
-		"culture": 1,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in all cities]",
-            "[+15]% Production when constructing [Ranged Gunpowder] units [in all cities]"],
-		"requiredTech": "Archery",
-		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	{
 		"name": "Leaf Library",

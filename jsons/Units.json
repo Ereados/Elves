@@ -75,11 +75,26 @@
 		"rangedStrength": 60,
 		"cost": 350,
 		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
+		"upgradesTo": "Elvish Buggy Bolter",
 		"uniques": ["Ranged attacks may be performed over obstacles","[+1] Sight","Can see over obstacles"],
 		"attackSound": "arrow"
 		// Upgrades to Bazooka in BNW
 	},
+	{
+		"name": "Elvish Buggy Bolter",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Elves",
+		"range": 3,
+		"movement": 3,
+		"strength": 90,
+		"rangedStrength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Ranged attacks may be performed over obstacles","[+1] Sight","Can see over obstacles"],
+		"attackSound": "arrow"
+		// Upgrades to Bazooka in BNW
+	},
+
 	{
 		"name": "Elvish Warrior",
 		"unitType": "Sword",

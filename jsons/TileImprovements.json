@@ -49,10 +49,10 @@
 	},
 	{
 		"name": "Orchard",
-		"terrainsCanBeBuiltOn": ["Forest","Shrubbery"],
+		"terrainsCanBeBuiltOn": ["Forest"],
 		"replaces": "Lumber mill",
 		"uniqueTo": "Elves",
-		"production": 1,
+		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
 		"uniques":	["[+1 Production] <after discovering [Scientific Theory]>",
@@ -83,7 +83,10 @@
 		"uniqueTo": "Elves",
 		"terrainsCanBeBuiltOn": ["Tundra","Plains","Grassland","Hill"],
 		"turnsToBuild": 4,
-		"uniques": ["Turn this tile into a [Forest] tile"],
+		"uniques": ["Turn this tile into a [Forest] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+			"Cannot be built on [Desert] tiles <hidden from users>",
+			"Cannot be built on [Snow] tiles <hidden from users>"],
 		"shortcutKey": "M"
 	},
 	{
@@ -91,7 +94,7 @@
 		"uniqueTo": "Elves",
 		"terrainsCanBeBuiltOn": ["Desert","Hill"],
 		"turnsToBuild": 4,
-		"uniques": ["Turn this tile into a [Plains] tile"],
+		"uniques": ["Turn this tile into a [Plains] tile","Cannot be built on [Snow] tiles <hidden from users>","Cannot be built on [Plains] tiles <hidden from users>","Cannot be built on [Grassland] tiles <hidden from users>","Cannot be built on [Tundra] tiles <hidden from users>"],
 		"shortcutKey": "M"
 	},
 	{
@@ -99,17 +102,7 @@
 		"uniqueTo": "Elves",
 		"terrainsCanBeBuiltOn": ["Snow","Hill"],
 		"turnsToBuild": 4,
-		"uniques": ["Turn this tile into a [Tundra] tile"],
+		"uniques": ["Turn this tile into a [Tundra] tile","Cannot be built on [Desert] tiles <hidden from users>","Cannot be built on [Plains] tiles <hidden from users>","Cannot be built on [Grassland] tiles <hidden from users>","Cannot be built on [Tundra] tiles <hidden from users>"],
 		"shortcutKey": "M"
-	},
-
-	{
-		"name": "Remove Shrubbery",
-		"turnsToBuild": 4,
-		"techRequired": "Mining",
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
-		"shortcutKey": "X",
-        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
-	},
-
+	}
 ]
