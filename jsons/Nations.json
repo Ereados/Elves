@@ -26,7 +26,7 @@
 		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","[+1 Food] from every [Forest]"],
 		"cities": ["Amazonas","Kora","Papua-Neuguinea","Korup","Bialowieza","Tongass","Daintree","Wolong",
 			"Yasuni","Sian Ka'an","Yellowstone","Kruger","Namdapha","Monteverde","Redwood","Hoh","Sundarbans",
-			"Kakadu","Smoky Mountains","Rwenzori",Gunung Leuser","Valdivian","Sequoia","Plitvicer Lakes","Hainan",
+			"Kakadu","Smoky Mountains","Rwenzori","Gunung Leuser","Valdivian","Sequoia","Plitvicer Lakes","Hainan",
 			"Madidi","Zamianka-Kerkini","Montecristo","Virunga","Banff","Andasibe","Yosemite","Muir","North Cascades","Borneo","Kariba","Tien Son-Nui Chua","Krka","San Juan Mountains","Sumatra","Kahuzi-Biega",Gorki-Terelj","Jozani Chwaka Bay","Bwindi","Black Forest"],
         "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
     }
