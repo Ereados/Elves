@@ -90,18 +90,22 @@
 		"uniqueTo": "Elves",
 		"maintenance": 1,
 		"happiness": 2,
-		"uniques": ["[+1 Happiness, +1 Gold] from [Orchard] tiles [in this city]"]
+		"uniques": ["[+1 Happiness, +1 Gold] from [Orchard] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction"
 	},
 	{
-		"name": "Forest Sanctum",
+		"name": "Sacrificium",
 		"replaces": "Temple",
 		"uniqueTo": "Elves",
 		"maintenance": 0,
 		"faith": 2,
-		"happiness": 1,
-		"culture": 1,
+		"uniques": ["[+1 Faith, +1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Faith, +1 Food] from [Horses] tiles [in this city]",
+			"[+1 Faith, +1 Food] from [Sheep] tiles [in this city]",
+			"[+1 Faith, +1 Food] from [Deer] tiles [in this city]",
+			"[+1 Faith, +1 Food] from [Ivory] tiles [in this city]",
+			"[+1 Faith, +1 Food] from [Furs] tiles [in this city]"]
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -113,7 +117,7 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Barrage I] promotion",
+		"uniques": ["All newly-trained [relevant] units [in all cities] receive the [Barrage I] promotion",
 			"Gain a free [Castle] [in this city]"],
 		"requiredTech": "Chivalry",
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
