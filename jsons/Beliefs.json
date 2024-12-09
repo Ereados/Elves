@@ -1,0 +1,19 @@
+[
+   {
+        "name": "Ancestral Spirits",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Forest]"]
+    },
+    {
+        "name": "Productive Trees",
+        "type": "Follower",
+        "uniqueTo": "Elves"
+        "uniques": ["[+1 Production] from [Forest] tiles [in cities following this religion]"]
+    },
+      {
+        "name": "Wood Wide Web",
+        "type": "Follower",
+        "uniqueTo": "Elves"
+        "uniques": ["[+1 Science] from [Forest] tiles [in cities following this religion]"]
+    }
+]
