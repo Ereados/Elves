@@ -9,6 +9,7 @@
 		"uniques": ["Does not need removal of [Forest]","Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+1 Food] <after discovering [Chemistry]>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},	
@@ -27,7 +28,7 @@
 		"uniqueTo": "Elves",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["Does not need removal of [Forest]","[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Does not need removal of [Forest]","[+1 Gold] <after discovering [Pharmaceuticals]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
@@ -58,7 +59,7 @@
 		"uniques":	["[+1 Science] <after discovering [Scientific Theory]>",
 				"[+1 Production] <after discovering [Chemistry]>",
 				"[+1 Food] <after discovering [Fertilizer]>" 
-				"Pillaging this improvement yields approximately [+10 Gold]"],
+				"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "L"
 	},
 	{
