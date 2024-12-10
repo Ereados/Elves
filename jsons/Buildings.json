@@ -85,12 +85,12 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Festival of Fruit",
+		"name": "Produce Fair",
 		"replaces": "Colosseum",
 		"uniqueTo": "Elves",
 		"maintenance": 1,
 		"happiness": 2,
-		"uniques": ["[+1 Happiness, +1 Gold] from [Orchard] tiles [in this city]"],
+		"uniques": ["[+1 Happiness, +1 Gold] from [Orchard] tiles [in this city]","[+1 Happiness, +1 Gold] from [Pasture] tiles [in this city]","[+1 Happiness, +1 Gold] from [Camp] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction"
 	},
