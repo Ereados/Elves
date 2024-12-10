@@ -93,6 +93,7 @@
 		"uniques": ["[+1 Happiness, +1 Gold] from [Orchard] tiles [in this city]",
 			    "[+1 Happiness, +1 Gold] from [Pasture] tiles [in this city]",
 			    "[+1 Happiness, +1 Gold] from [Camp] tiles [in this city]",
+			    "[+1 Happiness, +1 Gold] from [Farm] tiles [in this city]",
 			    "[+1 Happiness, +1 Gold] from [Plantation] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction"
