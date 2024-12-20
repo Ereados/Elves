@@ -96,5 +96,66 @@
 		"turnsToBuild": 4,
 		"uniques": ["Turn this tile into a [Tundra] tile","Cannot be built on [Desert] tiles <hidden from users>","Cannot be built on [Plains] tiles <hidden from users>","Cannot be built on [Grassland] tiles <hidden from users>","Cannot be built on [Tundra] tiles <hidden from users>"],
 		"shortcutKey": "M"
+	},
+		{
+		"name": "Acadetree",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"replaces": "Academy"
+		"uniqueTo": "Elves",
+		"science": 8,
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
+            "[+2 Science] <after discovering [Atomic Theory]>", "Does not need removal of [Forest]",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Treemark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"replaces": "Landmark"
+		"uniqueTo": "Elves",
+		"culture": 6,
+		"uniques": ["Great Improvement", "Does not need removal of [Forest]",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Manufactree",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"replaces": "Manufactory"
+		"uniqueTo": "Elves",
+		"production": 4,
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Will not be replaced by automated units",
+            "Does not need removal of [Forest]", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Customs tree",
+		"replaces": "Customs house"
+		"uniqueTo": "Elves",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Does not need removal of [Forest]",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Holy tree",
+		"replaces": "Holy site"
+		"uniqueTo": "Elves",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": ["Great Improvement", "Does not need removal of [Forest]", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Tree fort",
+		"replaces": "Citadel"
+		"uniqueTo": "Elves",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+			"Gain control over [all] tiles in a [1]-tile radius",
+			"Does not need removal of [Forest]",
+            "Will not be replaced by automated units"
+		]
 	}
+
 ]
