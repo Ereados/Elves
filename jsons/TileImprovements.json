@@ -38,6 +38,20 @@
 		"shortcutKey": "M"
 	},
 	{
+		"name": "Orchard",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"replaces": "Lumber mill",
+		"uniqueTo": "Elves",
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques":	["[+1 Science] <after discovering [Scientific Theory]>",
+				"[+1 Production] <after discovering [Chemistry]>",
+				"[+1 Food] <after discovering [Fertilizer]>" 
+				"Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "L"
+	},
+		{
 		"name": "Forest Pasture",
 		"uniqueTo": "Elves",
 		"replaces": "Pasture",
@@ -65,20 +79,7 @@
 		"uniques": ["Does not need removal of [Forest]","[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
-	{
-		"name": "Orchard",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"replaces": "Lumber mill",
-		"uniqueTo": "Elves",
-		"food": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Construction",
-		"uniques":	["[+1 Science] <after discovering [Scientific Theory]>",
-				"[+1 Production] <after discovering [Chemistry]>",
-				"[+1 Food] <after discovering [Fertilizer]>" 
-				"Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "L"
-	},
+
 	{
 		"name": "Oil trees",
 		"turnsToBuild": 9,
@@ -87,6 +88,21 @@
 		"techRequired": "Biology",
 		"uniques": ["Does not need removal of [Forest]","Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "W"
+	},
+	{
+		"name": "Tree fort",
+		"replaces": "Citadel"
+		"uniqueTo": "Elves",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+			"Gain control over [all] tiles in a [1]-tile radius",
+			"Does not need removal of [Forest]",
+            "Will not be replaced by automated units"
+		]
 	},
 	{
 		"name": "Grow Home",
@@ -159,21 +175,5 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
 		"uniques": ["Great Improvement", "Does not need removal of [Forest]", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
-	},
-	{
-		"name": "Tree fort",
-		"replaces": "Citadel"
-		"uniqueTo": "Elves",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [100]%",
-			"Adjacent enemy units ending their turn take [30] damage",
-			"Can be built just outside your borders",
-			"Gain control over [all] tiles in a [1]-tile radius",
-			"Does not need removal of [Forest]",
-            "Will not be replaced by automated units"
-		]
 	}
-
 ]
