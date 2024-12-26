@@ -1,19 +1,32 @@
 [
    {
-        "name": "Ancestral Spirits",
+        "name": "Arboreal Culture",
+        "uniqueTo": "Elves",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Forest]"]
+        "uniques": ["[+1 Culture] from every [Forest]"]
     },
     {
         "name": "Productive Trees",
         "type": "Follower",
-        "uniqueTo": "Elves"
+        "uniqueTo": "Elves",
         "uniques": ["[+1 Production] from [Forest] tiles [in cities following this religion]"]
     },
       {
         "name": "Wood Wide Web",
         "type": "Follower",
-        "uniqueTo": "Elves"
+        "uniqueTo": "Elves",
         "uniques": ["[+1 Science] from [Forest] tiles [in cities following this religion]"]
+    },
+    {
+        "name": "Arboreal Happiness",
+        "type": "Founder",
+        "uniqueTo": "Elves",
+        "uniques": ["[+1 Happiness] from [Forest] tiles [in cities following this religion]"]
+    },
+   {
+         "name": "Faith on flying Leaves",
+         "type": "Enhancer",
+         "uniqueTo": "Elves",
+         "uniques": ["Religion naturally spreads to cities [+3] tiles away","[+1 Faith] from [Forest] tiles [in cities following this religion]"]
     }
 ]
