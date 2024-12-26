@@ -54,6 +54,7 @@
 		{
 		"name": "Forest Pasture",
 		"uniqueTo": "Elves",
+		"replaces": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": ["Does not need removal of [Forest]","[+1 Gold] <after discovering [Pharmaceuticals]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
@@ -62,6 +63,7 @@
 	{
 		"name": "Forest Quarry",
 		"uniqueTo": "Elves",
+		"replaces": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
 		"uniques": ["Does not need removal of [Forest]","[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
@@ -71,6 +73,7 @@
 		"name": "Forest Plantation",
 		"turnsToBuild": 6,
 		"uniqueTo": "Elves",
+		"replaces": "Plantation",
 		"gold": 1,
 		"techRequired": "Calendar",
 		"uniques": ["Does not need removal of [Forest]","[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
@@ -81,6 +84,7 @@
 		"name": "Oil trees",
 		"turnsToBuild": 9,
 		"uniqueTo": "Elves",
+		"replaces": "Oil well",
 		"techRequired": "Biology",
 		"uniques": ["Does not need removal of [Forest]","Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "W"
