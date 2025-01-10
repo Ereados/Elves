@@ -87,6 +87,7 @@
 		"cost": 350,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Elvish Buggy Bolter",
+		"promotions": ["Elvish Withdraw","Forest Paths"],
 		"uniques": ["Ranged attacks may be performed over obstacles","[+1] Sight","Can see over obstacles"],
 		"attackSound": "arrow"
 		// Upgrades to Bazooka in BNW
@@ -101,6 +102,7 @@
 		"rangedStrength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
+		"promotions": ["Elvish Withdraw","Forest Paths"],
 		"uniques": ["Ranged attacks may be performed over obstacles","[+1] Sight","Can see over obstacles"],
 		"attackSound": "arrow"
 		// Upgrades to Bazooka in BNW
