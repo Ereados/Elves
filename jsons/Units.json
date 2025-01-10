@@ -1,4 +1,15 @@
-[	{
+[	
+	{
+		"name": "Forest Worker",
+		"unitType": "Civilian",
+		"uniqueTo": "Elves",
+		"replaces": "Worker",
+		"movement": 2,
+		"promotions": ["Forest Paths"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
 		"name": "Elvish Archer",
 		"unitType": "Archery",
 		"uniqueTo": "Elves",
