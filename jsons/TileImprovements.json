@@ -119,7 +119,7 @@
 	{
 		"name": "Enrich soil",
 		"uniqueTo": "Elves",
-		"terrainsCanBeBuiltOn": ["Desert","Hill"],
+		"terrainsCanBeBuiltOn": ["Desert","Hill","Flood plains"],
 		"turnsToBuild": 4,
 		"uniques": ["Turn this tile into a [Plains] tile","Cannot be built on [Snow] tiles <hidden from users>","Cannot be built on [Plains] tiles <hidden from users>","Cannot be built on [Grassland] tiles <hidden from users>","Cannot be built on [Tundra] tiles <hidden from users>"],
 		"shortcutKey": "M"
