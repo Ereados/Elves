@@ -194,7 +194,7 @@
 		"strength": 25,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
+		"requiredResource": "Deer",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"promotions": ["Forest Paths","Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
