@@ -176,7 +176,7 @@
 		"name": "Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Electricity",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
+		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Hill","Snow","Jungle"],
 		"production": 1,
 		"improvedBy": ["Mine","Forest Mine"],
 		"improvementStats": {"production": 1},
@@ -259,7 +259,7 @@
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Forest","Jungle"],
 		"gold": 2,
 		"improvedBy": ["Mine","Forest Mine"],
 		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
