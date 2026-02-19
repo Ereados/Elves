@@ -1,4 +1,4 @@
-[
+
 	// Bonus resources
 	{
 		"name": "Cattle",
@@ -176,7 +176,7 @@
 		"name": "Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Electricity",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Hill","Snow","Jungle"],
+		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Hill","Snow","Jungle","Forest"],
 		"production": 1,
 		"improvedBy": ["Mine","Forest Mine"],
 		"improvementStats": {"production": 1},
@@ -291,7 +291,7 @@
 	{
 		"name": "Incense",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
+		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains","Forest"],
 		"gold": 2,
 		"improvedBy": ["Plantation","Forest Plantation"],
 		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
