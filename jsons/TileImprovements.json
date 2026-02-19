@@ -28,6 +28,18 @@
 		"shortcutKey": "F"
 	},	
 	{
+		"name": "Water Farm",
+		"terrainsCanBeBuiltOn": ["Lakes"],
+		"uniqueTo": "Elves",
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>",
+			"[+1 Food] <after discovering [Chemistry]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},	
+	{
 		"name": "Forest Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"uniqueTo": "Elves",
@@ -178,3 +190,4 @@
 		"uniques": ["Great Improvement", "Does not need removal of [Forest]", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	}
 ]
+
