@@ -170,6 +170,19 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Elvish Infiltrator",
+		"unitType": "Sword",
+		"uniqueTo": "Elves",
+		"movement": 2,
+		"strength": 50,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"uniques": ["[+500]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"promotions": ["Forest Paths"],
+		"attackSound": "metalhit"
+	},
+	
+	{
 		"name": "Elvish Pikeman",
 		"unitType": "Sword",
 		"replaces": "Pikeman",
