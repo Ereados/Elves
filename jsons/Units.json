@@ -186,7 +186,6 @@
 	{
 		"name": "Elvish Sapper",
 		"unitType": "Sword",
-		"replaces": "Elvish Infiltrator",
 		"uniqueTo": "Elves",
 		"movement": 2,
 		"strength": 70,
@@ -201,7 +200,6 @@
 	{
 		"name": "Elvish Saboteur",
 		"unitType": "Sword",
-		"replaces": "Elvish Sapper",
 		"uniqueTo": "Elves",
 		"movement": 2,
 		"strength": 100,
@@ -216,7 +214,6 @@
 	{
 		"name": "Elvish Cyberninja",
 		"unitType": "Sword",
-		"replaces": "Elvish Saboteur",
 		"uniqueTo": "Elves",
 		"movement": 2,
 		"strength": 100,
