@@ -310,12 +310,13 @@
 		"replaces": "Great General",
 		"uniqueTo": "Elves",
 		"uniques": [
+			"Double movement in [Forest]",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [General] group",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 4
+		"movement": 2
 	},
 ]
