@@ -26,19 +26,7 @@
 			"Cannot be built on [Water] tiles <hidden from users>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
-	},	
-	{
-		"name": "Water Farm",
-		"terrainsCanBeBuiltOn": ["Lakes"],
-		"uniqueTo": "Elves",
-		"food": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>",
-			"[+1 Food] <after discovering [Chemistry]>",
-			"Pillaging this improvement yields approximately [+18 Gold]"],
-		"shortcutKey": "F"
-	},	
+	},		
 	{
 		"name": "Forest Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
