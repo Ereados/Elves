@@ -111,7 +111,6 @@
 		"terrainsCanBeBuiltOn": ["Tundra","Plains","Grassland","Hill"],
 		"turnsToBuild": 4,
 		"uniques": ["Turn this tile into a [Forest] tile",
-			"Does not need removal of [Trading post] <hidden from users>",
 			"Cannot be built on [Desert] tiles <hidden from users>",
 			"Cannot be built on [Snow] tiles <hidden from users>"],
 		"shortcutKey": "M"
