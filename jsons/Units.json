@@ -347,4 +347,15 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	{	
+		"name": "Forests Wrath",
+		"unitType": "Helicopter",
+		"uniqueTo": "Elves",
+		"movement": 7,
+		"strength": 200,
+		"cost": 0,
+		"uniques": ["[+100]% Strength <vs [Mounted] units>","[+100]% Strength <vs [Armored] units>","[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
 ]
